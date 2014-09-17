@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="20dp"
+    android:gravity="center" >
+    
+    <RelativeLayout 
+        android:id="@+id/rl_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+         >
+        
+        <ImageView 
+            android:id="@+id/img_welcome"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="欢迎登陆"/>
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_welcome"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="小菜 | HBUT版"
+            android:textSize="14sp"
+            android:typeface="monospace"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_row1" 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:layout_below="@id/rl_welcome">
+        
+        <TextView 
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#FF8C00"
+            android:background="#ccEDEDED"
+            android:text="小菜号"/>
+        
+        <EditText 
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:lines="2"
+            android:inputType="text"
+            android:background="#ccDEDEDE"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp" 
+            android:typeface="monospace"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_row2" 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ll_row1">
+        
+        <TextView 
+            android:id="@+id/tv_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#FF8C00"
+            android:background="#ccEDEDED"
+            android:text="密码"/>
+        
+        <EditText 
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:lines="2"
+            android:inputType="textPassword"
+            android:background="#ccDEDEDE" 
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp" 
+            android:typeface="monospace"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_row3" 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/ll_row2">
+        
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="亲亲小菜"
+            android:textColor="#FF8C00"
+            android:textSize="18sp" />
+        
+    </LinearLayout>
+</RelativeLayout>

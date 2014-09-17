@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stone.shopmanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<uses-permission android:name="android.permission.VIBRATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.stone.shopmanager.view.LoginActicity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.stone.shopmanager.view.HomeActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.ShopManagerActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.GoodManagerActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.OrderManagerActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.NewsManagerActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.AboutActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.AddShopActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.AddGoodActivity" 
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shopmanager.view.AddNewsActivity" 
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

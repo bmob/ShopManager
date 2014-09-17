@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" >
+
+        <Button
+            android:id="@+id/btn_m_shop_add"
+            style="@style/menu_text_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:background="#F5F5DC"
+            android:textColor="#20B2AA"
+            android:text="创建店铺" />
+
+        <Button
+            android:id="@+id/btn_m_shop_modify"
+            style="@style/menu_text_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:background="#F5F5DC"
+            android:textColor="#20B2AA"
+            android:text="修改店铺" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" >
+
+        <Button
+            android:id="@+id/btn_m_shop_sale"
+            style="@style/menu_text_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:background="#F5F5DC"
+            android:textColor="#20B2AA"
+            android:text="添加优惠" />
+
+    </RelativeLayout>
+
+</LinearLayout>

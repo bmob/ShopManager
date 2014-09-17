@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_type_array">
+        <item></item>
+        <item>博学堂</item>
+        <item>图书馆</item>
+        <item>大礼堂</item>
+        <item>二手交易</item>
+        <item>湖工大在线</item>
+        <item>学生会</item>
+        <item>社团</item>
+        <item>美食</item>
+        <item>购物</item>
+        <item>旅游</item>
+        <item>天气</item>
+        <item>公告</item>
+        <item>小小菜</item>
+    </string-array>
+</resources>

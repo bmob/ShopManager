@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_m_news.xml" />
+    </issue>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/activity_m_shop.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_addnews.xml" />
+        <ignore path="res/layout/activity_home.xml" />
+        <ignore path="res/layout/activity_login.xml" />
+        <ignore path="res/layout/activity_m_about.xml" />
+        <ignore path="res/layout/activity_m_news.xml" />
+        <ignore path="res/layout/activity_m_shop.xml" />
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/activity_test.xml" />
+    </issue>
+</lint>

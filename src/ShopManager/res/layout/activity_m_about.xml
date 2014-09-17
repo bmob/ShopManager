@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_m_shop_1"
+        style="@style/item_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="检查更新" />
+    
+    <Button
+        android:id="@+id/btn_m_shop_2"
+        style="@style/item_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="关于软件" />
+
+</LinearLayout>

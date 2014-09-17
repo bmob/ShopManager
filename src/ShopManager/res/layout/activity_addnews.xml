@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/et_news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:hint="输入新闻标题"/>
+    
+    <Spinner 
+        android:id="@+id/sp_news_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:contentDescription="选择新闻的类型"/>
+    
+    <EditText 
+        android:id="@+id/et_news_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:hint="输入新闻的作者"/>
+    
+    <EditText 
+        android:id="@+id/et_news_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:hint="输入新闻内容"/>
+
+    <Button 
+        android:id="@+id/btn_add_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布小菜新闻"/>
+    
+
+</LinearLayout>
